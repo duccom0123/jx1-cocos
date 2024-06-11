@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>K:\Client\cocos2dx226\cocos2dx\platform\third_party\win32\pthread;K:\Client\cocos2dx226\CocosDenshion\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\cocos2dx226\cocos2dx\platform\third_party\win32\pthread;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AssemblerOutput>All</AssemblerOutput>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AssemblerOutput>All</AssemblerOutput>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\engine\CXmlStream.cpp" />
+    <ClCompile Include="..\Classes\engine\dataChecksum.cpp" />
+    <ClCompile Include="..\Classes\engine\KCache.cpp" />
+    <ClCompile Include="..\Classes\engine\KCodec.cpp" />
+    <ClCompile Include="..\Classes\engine\KCodecLzo.cpp" />
+    <ClCompile Include="..\Classes\engine\KDownLoadFile.cpp" />
+    <ClCompile Include="..\Classes\engine\KFile.cpp" />
+    <ClCompile Include="..\Classes\engine\KFilePath.cpp" />
+    <ClCompile Include="..\Classes\engine\Kgetinidata.cpp" />
+    <ClCompile Include="..\Classes\engine\KIniFile.cpp" />
+    <ClCompile Include="..\Classes\engine\KLinkArray.cpp" />
+    <ClCompile Include="..\Classes\engine\KList.cpp" />
+    <ClCompile Include="..\Classes\engine\KLuaScript.cpp" />
+    <ClCompile Include="..\Classes\engine\KLubCmpl_Blocker.cpp" />
+    <ClCompile Include="..\Classes\engine\KMemBase.cpp" />
+    <ClCompile Include="..\Classes\engine\KMemClass.cpp" />
+    <ClCompile Include="..\Classes\engine\KMemClass1.cpp" />
+    <ClCompile Include="..\Classes\engine\KMemManager.cpp" />
+    <ClCompile Include="..\Classes\engine\KMemStack.cpp" />
+    <ClCompile Include="..\Classes\engine\KNode.cpp" />
+    <ClCompile Include="..\Classes\engine\KPakFile.cpp" />
+    <ClCompile Include="..\Classes\engine\KPakList.cpp" />
+    <ClCompile Include="..\Classes\engine\KPolygon.cpp" />
+    <ClCompile Include="..\Classes\engine\KRandom.cpp" />
+    <ClCompile Include="..\Classes\engine\KScript.cpp" />
+    <ClCompile Include="..\Classes\engine\KScriptCache.cpp" />
+    <ClCompile Include="..\Classes\engine\KScriptList.cpp" />
+    <ClCompile Include="..\Classes\engine\KSG_MD5_String.cpp" />
+    <ClCompile Include="..\Classes\engine\KSG_StringProcess.cpp" />
+    <ClCompile Include="..\Classes\engine\KStepLuaScript.cpp" />
+    <ClCompile Include="..\Classes\engine\KStrBase.cpp" />
+    <ClCompile Include="..\Classes\engine\KStrList.cpp" />
+    <ClCompile Include="..\Classes\engine\KStrNode.cpp" />
+    <ClCompile Include="..\Classes\engine\KTabFile.cpp" />
+    <ClCompile Include="..\Classes\engine\KTabFileCtrl.cpp" />
+    <ClCompile Include="..\Classes\engine\KTimer.cpp" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lauxlib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lbaselib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\ldblib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\liolib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lmathlib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lstrlib.c" />
+    <ClCompile Include="..\Classes\engine\lualib\dump.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lapi.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lcode.c" />
+    <ClCompile Include="..\Classes\engine\lualib\ldebug.c" />
+    <ClCompile Include="..\Classes\engine\lualib\ldo.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lfunc.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lgc.c" />
+    <ClCompile Include="..\Classes\engine\lualib\llex.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lmem.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lobject.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lparser.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lstate.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lstring.c" />
+    <ClCompile Include="..\Classes\engine\lualib\ltable.c" />
+    <ClCompile Include="..\Classes\engine\lualib\ltests.c" />
+    <ClCompile Include="..\Classes\engine\lualib\ltm.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lua.c" />
+    <ClCompile Include="..\Classes\engine\lualib\luac.c" />
+    <ClCompile Include="..\Classes\engine\lualib\LuaExtend.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lundump.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lvm.c" />
+    <ClCompile Include="..\Classes\engine\lualib\lzio.c" />
+    <ClCompile Include="..\Classes\engine\lualib\opt.c" />
+    <ClCompile Include="..\Classes\engine\lualib\print.c" />
+    <ClCompile Include="..\Classes\engine\md5.cpp" />
+    <ClCompile Include="..\Classes\engine\Text.cpp" />
+    <ClCompile Include="..\Classes\engine\ucl\alloc.c" />
+    <ClCompile Include="..\Classes\engine\ucl\io.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2b_99.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2b_d.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2b_ds.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2b_to.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2d_99.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2d_d.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2d_ds.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2d_to.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2e_99.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2e_d.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2e_ds.c" />
+    <ClCompile Include="..\Classes\engine\ucl\n2e_to.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_crc.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_dll.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_init.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_ptr.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_str.c" />
+    <ClCompile Include="..\Classes\engine\ucl\ucl_util.c" />
+    <ClCompile Include="..\Classes\engine\XPackFile.cpp" />
+    <ClCompile Include="..\Classes\gamecore\CoreDrawGameObj.cpp" />
+    <ClCompile Include="..\Classes\gamecore\CoreShell.cpp" />
+    <ClCompile Include="..\Classes\gamecore\ImgRef.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KBasPropTbl.CPP" />
+    <ClCompile Include="..\Classes\gamecore\KBuySell.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KCore.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KFaction.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KInventory.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KItem.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KItemChangeRes.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KItemGenerator.CPP" />
+    <ClCompile Include="..\Classes\gamecore\KItemList.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KItemSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KLadder.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KLittleMap.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMagicDesc.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMapMusic.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMath.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMissle.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMissleMagicAttribsData.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMissleRes.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KMissleSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpc.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcAI.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcAttribModify.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcDeathCalcExp.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcFindPath.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcGold.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcRes.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcResList.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcResNode.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KNpcTemplate.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KObj.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KObjSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayer.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerFaction.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerFuYuan.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerMenuState.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerPK.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerReBorn.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerRepute.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerTask.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerTeam.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerTong.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerTrade.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KPlayerVip.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KProtocol.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KProtocolProcess.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KRegion.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KScriptValueSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSellItem.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSkillList.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSkillManager.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSkills.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSkillSpecial.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSortScript.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSprControl.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSubWorld.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KSubWorldSet.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KTaskFuns.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KThiefSkill.cpp" />
+    <ClCompile Include="..\Classes\gamecore\KViewItem.cpp" />
+    <ClCompile Include="..\Classes\gamecore\LuaFuns.cpp" />
+    <ClCompile Include="..\Classes\gamecore\ScriptFuns.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KgameWorld.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KHRocker.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KIpotBranch.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KIpotLeaf.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KIpoTree.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KScenePlaceC.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KScenePlaceRegionC.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KSkillRocker.cpp" />
+    <ClCompile Include="..\Classes\gamescene\KUpdateLayer.cpp" />
+    <ClCompile Include="..\Classes\gamescene\SceneMath.cpp" />
+    <ClCompile Include="..\Classes\gamescene\ScenePlaceMapC.cpp" />
+    <ClCompile Include="..\Classes\gameui\GameSpaceChangedNotify.cpp" />
+    <ClCompile Include="..\Classes\gameui\KCheckbox.cpp" />
+    <ClCompile Include="..\Classes\gameui\KDrawGameWorld.cpp" />
+    <ClCompile Include="..\Classes\gameui\Klogin.cpp" />
+    <ClCompile Include="..\Classes\gameui\Klogin_f.cpp" />
+    <ClCompile Include="..\Classes\gameui\KSelPlayer.cpp" />
+    <ClCompile Include="..\Classes\gameui\KTranSence.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiAccreg.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiAutoPlay.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiAutoPlay_vn.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiChatList.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiCometoMap.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiDialog.cpp" />
+    <ClCompile Include="..\Classes\gameui\Kuiduan.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiDynamicShop.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiEscInfo.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuigetMoney.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuigetStringInUI.cpp" />
+    <ClCompile Include="..\Classes\gameui\Kuigive.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiInPutIp.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiItem.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiItemdesc.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiItemEx.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiItemKuo.cpp" />
+    <ClCompile Include="..\Classes\gameui\Kuilaotou.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiLockscree.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiMaxMap.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiMoveToMap.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiMylistView.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiMyMenu.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiNewPlayer.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiPaimaishop.cpp" />
+    <ClCompile Include="..\Classes\gameui\Kuiplayerfun.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiPlayerShop.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiPlayerTrade.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiProgressbar.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiRankInfo.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiRoleState.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSellItem.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSelNativePlace.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSelserver.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiShop.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiShowSprite.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSkill.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSkilldesc.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSortSkill_l.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSortSkill_r.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuistoreBox.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiSuperShop.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTalkDialog.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTalkDialog1.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTaskInfo.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTeam.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTongCreateSheet.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiTongInfo.cpp" />
+    <ClCompile Include="..\Classes\gameui\KuiViewRoleState.cpp" />
+    <ClCompile Include="..\Classes\gameui\PopupLayer.cpp" />
+    <ClCompile Include="..\Classes\gameui\Uiglobaldata.cpp" />
+    <ClCompile Include="..\Classes\gameui\uiSkill.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\ImageStore\KImageStore2.cpp" />
+    <ClCompile Include="..\Classes\network\ClientStage.cpp" />
+    <ClCompile Include="..\Classes\network\CriticalSection.cpp" />
+    <ClCompile Include="..\Classes\network\Event.cpp" />
+    <ClCompile Include="..\Classes\network\IOBuffer.cpp" />
+    <ClCompile Include="..\Classes\network\KSG_EncodeDecode.cpp" />
+    <ClCompile Include="..\Classes\network\NodeList.cpp" />
+    <ClCompile Include="..\Classes\network\Socket.cpp" />
+    <ClCompile Include="..\Classes\network\SocketClient.cpp" />
+    <ClCompile Include="..\Classes\network\Thread.cpp" />
+    <ClCompile Include="..\Classes\network\UsesWinsock.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\engine\CXmlStream.h" />
+    <ClInclude Include="..\Classes\engine\dataChecksum.h" />
+    <ClInclude Include="..\Classes\engine\KBinsTree.h" />
+    <ClInclude Include="..\Classes\engine\KBinTreeNode.h" />
+    <ClInclude Include="..\Classes\engine\KbugInfo.h" />
+    <ClInclude Include="..\Classes\engine\KCache.h" />
+    <ClInclude Include="..\Classes\engine\KCodec.h" />
+    <ClInclude Include="..\Classes\engine\KCodecLzo.h" />
+    <ClInclude Include="..\Classes\engine\KCriticalSection.h" />
+    <ClInclude Include="..\Classes\engine\KDownLoadFile.h" />
+    <ClInclude Include="..\Classes\engine\KEngine.h" />
+    <ClInclude Include="..\Classes\engine\KFile.h" />
+    <ClInclude Include="..\Classes\engine\KFilePath.h" />
+    <ClInclude Include="..\Classes\engine\KGbktoUtf8.h" />
+    <ClInclude Include="..\Classes\engine\Kgetinidata.h" />
+    <ClInclude Include="..\Classes\engine\KIniFile.h" />
+    <ClInclude Include="..\Classes\engine\KITabFile.h" />
+    <ClInclude Include="..\Classes\engine\KLinkArray.h" />
+    <ClInclude Include="..\Classes\engine\KList.h" />
+    <ClInclude Include="..\Classes\engine\KLuaScript.h" />
+    <ClInclude Include="..\Classes\engine\KLubCmpl_Blocker.h" />
+    <ClInclude Include="..\Classes\engine\KMemBase.h" />
+    <ClInclude Include="..\Classes\engine\KMemClass.h" />
+    <ClInclude Include="..\Classes\engine\KMemClass1.h" />
+    <ClInclude Include="..\Classes\engine\KMemManager.h" />
+    <ClInclude Include="..\Classes\engine\KMemStack.h" />
+    <ClInclude Include="..\Classes\engine\KNode.h" />
+    <ClInclude Include="..\Classes\engine\KPakFile.h" />
+    <ClInclude Include="..\Classes\engine\KPakList.h" />
+    <ClInclude Include="..\Classes\engine\KPolygon.h" />
+    <ClInclude Include="..\Classes\engine\KRandom.h" />
+    <ClInclude Include="..\Classes\engine\KScript.h" />
+    <ClInclude Include="..\Classes\engine\KScriptCache.h" />
+    <ClInclude Include="..\Classes\engine\KScriptList.h" />
+    <ClInclude Include="..\Classes\engine\KSG_MD5_String.h" />
+    <ClInclude Include="..\Classes\engine\KSG_StringProcess.h" />
+    <ClInclude Include="..\Classes\engine\KStepLuaScript.h" />
+    <ClInclude Include="..\Classes\engine\KStrBase.h" />
+    <ClInclude Include="..\Classes\engine\KStrList.h" />
+    <ClInclude Include="..\Classes\engine\KStrNode.h" />
+    <ClInclude Include="..\Classes\engine\KTabFile.h" />
+    <ClInclude Include="..\Classes\engine\KTabFileCtrl.h" />
+    <ClInclude Include="..\Classes\engine\KTimer.h" />
+    <ClInclude Include="..\Classes\engine\LinkStruct.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lapi.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lauxlib.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lcode.h" />
+    <ClInclude Include="..\Classes\engine\lualib\ldebug.h" />
+    <ClInclude Include="..\Classes\engine\lualib\ldo.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lfunc.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lgc.h" />
+    <ClInclude Include="..\Classes\engine\lualib\llex.h" />
+    <ClInclude Include="..\Classes\engine\lualib\llimits.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lmem.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lobject.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lopcodes.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lparser.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lstate.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lstring.h" />
+    <ClInclude Include="..\Classes\engine\lualib\ltable.h" />
+    <ClInclude Include="..\Classes\engine\lualib\ltm.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lua.h" />
+    <ClInclude Include="..\Classes\engine\lualib\luac.h" />
+    <ClInclude Include="..\Classes\engine\lualib\luadebug.h" />
+    <ClInclude Include="..\Classes\engine\lualib\LuaDef.h" />
+    <ClInclude Include="..\Classes\engine\lualib\LuaLib.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lundump.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lvm.h" />
+    <ClInclude Include="..\Classes\engine\lualib\lzio.h" />
+    <ClInclude Include="..\Classes\engine\lualib\print.h" />
+    <ClInclude Include="..\Classes\engine\md5.h" />
+    <ClInclude Include="..\Classes\engine\Text.h" />
+    <ClInclude Include="..\Classes\engine\ucl\getbit.h" />
+    <ClInclude Include="..\Classes\engine\ucl\ucl.h" />
+    <ClInclude Include="..\Classes\engine\ucl\uclconf.h" />
+    <ClInclude Include="..\Classes\engine\ucl\ucl_asm.h" />
+    <ClInclude Include="..\Classes\engine\ucl\ucl_conf.h" />
+    <ClInclude Include="..\Classes\engine\ucl\ucl_ptr.h" />
+    <ClInclude Include="..\Classes\engine\XPackFile.h" />
+    <ClInclude Include="..\Classes\gamecore\CoreDrawGameObj.h" />
+    <ClInclude Include="..\Classes\gamecore\CoreShell.h" />
+    <ClInclude Include="..\Classes\gamecore\ImgRef.h" />
+    <ClInclude Include="..\Classes\gamecore\KBasPropTbl.h" />
+    <ClInclude Include="..\Classes\gamecore\KBuySell.h" />
+    <ClInclude Include="..\Classes\gamecore\KCore.h" />
+    <ClInclude Include="..\Classes\gamecore\KDropScript.h" />
+    <ClInclude Include="..\Classes\gamecore\KFaction.h" />
+    <ClInclude Include="..\Classes\gamecore\KInventory.h" />
+    <ClInclude Include="..\Classes\gamecore\KItem.h" />
+    <ClInclude Include="..\Classes\gamecore\KItemChangeRes.h" />
+    <ClInclude Include="..\Classes\gamecore\KItemGenerator.h" />
+    <ClInclude Include="..\Classes\gamecore\KItemList.h" />
+    <ClInclude Include="..\Classes\gamecore\KItemSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KLadder.h" />
+    <ClInclude Include="..\Classes\gamecore\KLittleMap.h" />
+    <ClInclude Include="..\Classes\gamecore\KMagicAttrib.h" />
+    <ClInclude Include="..\Classes\gamecore\KMagicDesc.h" />
+    <ClInclude Include="..\Classes\gamecore\KMapMusic.h" />
+    <ClInclude Include="..\Classes\gamecore\KMath.h" />
+    <ClInclude Include="..\Classes\gamecore\KMissle.h" />
+    <ClInclude Include="..\Classes\gamecore\KMissleMagicAttribsData.h" />
+    <ClInclude Include="..\Classes\gamecore\KMissleRes.h" />
+    <ClInclude Include="..\Classes\gamecore\KMissleSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpc.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcAI.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcAttribModify.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcFindPath.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcGold.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcRes.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcResList.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcResNode.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KNpcTemplate.h" />
+    <ClInclude Include="..\Classes\gamecore\KObj.h" />
+    <ClInclude Include="..\Classes\gamecore\KObjSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayer.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerDef.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerFaction.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerFuYuan.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerMenuState.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerPK.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerReBorn.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerRepute.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerTask.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerTeam.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerTong.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerTrade.h" />
+    <ClInclude Include="..\Classes\gamecore\KPlayerVip.h" />
+    <ClInclude Include="..\Classes\gamecore\KProtocol.h" />
+    <ClInclude Include="..\Classes\gamecore\KProtocolDef.h" />
+    <ClInclude Include="..\Classes\gamecore\KProtocolProcess.h" />
+    <ClInclude Include="..\Classes\gamecore\KRegion.h" />
+    <ClInclude Include="..\Classes\gamecore\KRelayProtocol.h" />
+    <ClInclude Include="..\Classes\gamecore\KScriptValueSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KSellItem.h" />
+    <ClInclude Include="..\Classes\gamecore\KSkillList.h" />
+    <ClInclude Include="..\Classes\gamecore\KSkillManager.h" />
+    <ClInclude Include="..\Classes\gamecore\KSkills.h" />
+    <ClInclude Include="..\Classes\gamecore\KSkillSpecial.h" />
+    <ClInclude Include="..\Classes\gamecore\KSortScript.h" />
+    <ClInclude Include="..\Classes\gamecore\KSprControl.h" />
+    <ClInclude Include="..\Classes\gamecore\KSubWorld.h" />
+    <ClInclude Include="..\Classes\gamecore\KSubWorldSet.h" />
+    <ClInclude Include="..\Classes\gamecore\KTaskFuns.h" />
+    <ClInclude Include="..\Classes\gamecore\KThiefSkill.h" />
+    <ClInclude Include="..\Classes\gamecore\KTongProtocol.h" />
+    <ClInclude Include="..\Classes\gamecore\KViewItem.h" />
+    <ClInclude Include="..\Classes\gamecore\LuaFuns.h" />
+    <ClInclude Include="..\Classes\gamescene\KgameWorld.h" />
+    <ClInclude Include="..\Classes\gamescene\KHRocker.h" />
+    <ClInclude Include="..\Classes\gamescene\KIpotBranch.h" />
+    <ClInclude Include="..\Classes\gamescene\KIpotLeaf.h" />
+    <ClInclude Include="..\Classes\gamescene\KIpoTree.h" />
+    <ClInclude Include="..\Classes\gamescene\KScenePlaceC.h" />
+    <ClInclude Include="..\Classes\gamescene\KScenePlaceRegionC.h" />
+    <ClInclude Include="..\Classes\gamescene\KSkillRocker.h" />
+    <ClInclude Include="..\Classes\gamescene\KUpdateLayer.h" />
+    <ClInclude Include="..\Classes\gamescene\LoginDef.h" />
+    <ClInclude Include="..\Classes\gamescene\SceneMath.h" />
+    <ClInclude Include="..\Classes\gamescene\ScenePlaceMapC.h" />
+    <ClInclude Include="..\Classes\gameui\GameSpaceChangedNotify.h" />
+    <ClInclude Include="..\Classes\gameui\KCheckbox.h" />
+    <ClInclude Include="..\Classes\gameui\KDrawGameWorld.h" />
+    <ClInclude Include="..\Classes\gameui\Klogin.h" />
+    <ClInclude Include="..\Classes\gameui\Klogin_f.h" />
+    <ClInclude Include="..\Classes\gameui\KSelPlayer.h" />
+    <ClInclude Include="..\Classes\gameui\KTranSence.h" />
+    <ClInclude Include="..\Classes\gameui\KuiAccreg.h" />
+    <ClInclude Include="..\Classes\gameui\KuiAutoPlay.h" />
+    <ClInclude Include="..\Classes\gameui\KuiAutoPlay_vn.h" />
+    <ClInclude Include="..\Classes\gameui\KuiChatList.h" />
+    <ClInclude Include="..\Classes\gameui\KuiCometoMap.h" />
+    <ClInclude Include="..\Classes\gameui\KuiDialog.h" />
+    <ClInclude Include="..\Classes\gameui\Kuiduan.h" />
+    <ClInclude Include="..\Classes\gameui\KuiDynamicShop.h" />
+    <ClInclude Include="..\Classes\gameui\KuiEscInfo.h" />
+    <ClInclude Include="..\Classes\gameui\KuigetMoney.h" />
+    <ClInclude Include="..\Classes\gameui\KuigetStringInUI.h" />
+    <ClInclude Include="..\Classes\gameui\Kuigive.h" />
+    <ClInclude Include="..\Classes\gameui\KuiInPutIp.h" />
+    <ClInclude Include="..\Classes\gameui\KuiItem.h" />
+    <ClInclude Include="..\Classes\gameui\KuiItemdesc.h" />
+    <ClInclude Include="..\Classes\gameui\KuiItemEx.h" />
+    <ClInclude Include="..\Classes\gameui\KuiItemKuo.h" />
+    <ClInclude Include="..\Classes\gameui\Kuilaotou.h" />
+    <ClInclude Include="..\Classes\gameui\KuiLockscree.h" />
+    <ClInclude Include="..\Classes\gameui\KuiMaxMap.h" />
+    <ClInclude Include="..\Classes\gameui\KuiMoveToMap.h" />
+    <ClInclude Include="..\Classes\gameui\KuiMylistView.h" />
+    <ClInclude Include="..\Classes\gameui\KuiMyMenu.h" />
+    <ClInclude Include="..\Classes\gameui\KuiNewPlayer.h" />
+    <ClInclude Include="..\Classes\gameui\KuiPaimaishop.h" />
+    <ClInclude Include="..\Classes\gameui\Kuiplayerfun.h" />
+    <ClInclude Include="..\Classes\gameui\KuiPlayerShop.h" />
+    <ClInclude Include="..\Classes\gameui\KuiPlayerTrade.h" />
+    <ClInclude Include="..\Classes\gameui\KuiProgressbar.h" />
+    <ClInclude Include="..\Classes\gameui\KuiRankInfo.h" />
+    <ClInclude Include="..\Classes\gameui\KuiRoleState.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSellItem.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSelNativePlace.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSelserver.h" />
+    <ClInclude Include="..\Classes\gameui\KuiShop.h" />
+    <ClInclude Include="..\Classes\gameui\KuiShowSprite.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSkill.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSkilldesc.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSortSkill_l.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSortSkill_r.h" />
+    <ClInclude Include="..\Classes\gameui\KuistoreBox.h" />
+    <ClInclude Include="..\Classes\gameui\KuiSuperShop.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTalkDialog.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTalkDialog1.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTaskInfo.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTeam.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTongCreateSheet.h" />
+    <ClInclude Include="..\Classes\gameui\KuiTongInfo.h" />
+    <ClInclude Include="..\Classes\gameui\KuiViewRoleState.h" />
+    <ClInclude Include="..\Classes\gameui\PopupLayer.h" />
+    <ClInclude Include="..\Classes\gameui\Uiglobaldata.h" />
+    <ClInclude Include="..\Classes\gameui\uiSkill.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\ImageStore\KImageStore2.h" />
+    <ClInclude Include="..\Classes\network\Cipher.h" />
+    <ClInclude Include="..\Classes\network\ClientStage.h" />
+    <ClInclude Include="..\Classes\network\CriticalSection.h" />
+    <ClInclude Include="..\Classes\network\Event.h" />
+    <ClInclude Include="..\Classes\network\IOBuffer.h" />
+    <ClInclude Include="..\Classes\network\KSG_EncodeDecode.h" />
+    <ClInclude Include="..\Classes\network\NodeList.h" />
+    <ClInclude Include="..\Classes\network\Socket.h" />
+    <ClInclude Include="..\Classes\network\SocketClient.h" />
+    <ClInclude Include="..\Classes\network\Thread.h" />
+    <ClInclude Include="..\Classes\network\UsesWinsock.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamescene">
+      <UniqueIdentifier>{903b9cff-acd7-41b9-a074-58340ae67d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore">
+      <UniqueIdentifier>{69d487e4-0ddc-4806-8c88-4f9789601fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine">
+      <UniqueIdentifier>{ad640b7c-ad18-4fa7-8520-1ca885fd9511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\ucl">
+      <UniqueIdentifier>{55bfd2e8-49ec-4acb-bf80-0dfcb963b998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\header files">
+      <UniqueIdentifier>{3f060eeb-94f8-4a13-9015-01c23b759305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\source files">
+      <UniqueIdentifier>{db3d3707-2942-494f-b2c0-5320bd2d3555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\lualib">
+      <UniqueIdentifier>{04791ae1-b175-4b85-b845-775e18b7f25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\engine\lualib\baselib">
+      <UniqueIdentifier>{8046447f-dce8-4b36-8689-15ab49d1301c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\NPC人物">
+      <UniqueIdentifier>{d63481be-f773-4790-b3c7-43cb780653c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\技能">
+      <UniqueIdentifier>{0b6fc515-db34-43ae-adab-4eee2a3a7556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\数学算法">
+      <UniqueIdentifier>{944b243b-56a7-4016-bdad-3e5c3253221b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\地图区域">
+      <UniqueIdentifier>{da0a91b8-a594-4726-8eb8-82b46524893e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\动画换帧计算">
+      <UniqueIdentifier>{568effc4-e6ec-4611-b918-da4c49a95863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\NPC外观">
+      <UniqueIdentifier>{66616861-14a0-41e1-afaf-fc81176174ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\魔法属性">
+      <UniqueIdentifier>{ab0bd2e0-80a0-4891-bd02-53f9da330662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\脚本">
+      <UniqueIdentifier>{68ff068a-1f3e-4962-86bf-ce2a1d411aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\交易买卖">
+      <UniqueIdentifier>{b3bbb69e-2e8e-4346-8069-545c96bebc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\任务">
+      <UniqueIdentifier>{db54f02a-3572-4225-96cf-cf27862f969b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\物品装备">
+      <UniqueIdentifier>{18af2ccc-c96b-46d0-9498-b06b795bec99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui">
+      <UniqueIdentifier>{76c92730-5bef-40f5-86f8-ec6735f228d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImageStore">
+      <UniqueIdentifier>{3b9283c4-8ba3-4224-9615-4c0035536ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamescene\场景">
+      <UniqueIdentifier>{0e4fac4a-6ec0-4025-8298-8f4ddc922e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamescene\场景\场景中对象与对象树">
+      <UniqueIdentifier>{d500bdbb-c6cc-4884-899c-25e34f0ec65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\network">
+      <UniqueIdentifier>{091984ec-7a2d-408e-8b7a-b3d4364ceebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\组队">
+      <UniqueIdentifier>{98ecd8e7-611c-4c41-80a8-b7144144b47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\登陆选择服务器">
+      <UniqueIdentifier>{cae3adfa-50ce-43dc-be71-08161e4c2d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\对话确认窗口">
+      <UniqueIdentifier>{76857b8c-cf87-4144-81f1-cc1a05f17cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\状态物品技能">
+      <UniqueIdentifier>{0b805a21-ab09-485d-b66a-f7b9b3cff116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\npc买卖">
+      <UniqueIdentifier>{386e689e-b3a9-442e-a09d-524b622d5adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\存取钱">
+      <UniqueIdentifier>{16f4f211-4a90-4a41-b922-08adaf1236b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\输入数字字符串">
+      <UniqueIdentifier>{8c9fbbf3-1955-436d-877b-109c47b0adf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\新建角色">
+      <UniqueIdentifier>{adb78187-f0f6-433f-a1e4-551c563e0c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\聊天滚动层">
+      <UniqueIdentifier>{e05828fd-afc3-4e52-8715-cc7fecae2fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\断点下载">
+      <UniqueIdentifier>{9ea6bde6-1c40-4109-b493-85976451ac82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\进度条">
+      <UniqueIdentifier>{2bc6acd0-ff36-4cfc-a75e-3b8ee1044b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\帐号注册">
+      <UniqueIdentifier>{9feaf1c1-7013-4353-b754-f9ae60b7d901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\给予界面">
+      <UniqueIdentifier>{41fe8e6a-6e13-4b12-96fb-592e887df3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\内挂">
+      <UniqueIdentifier>{4df1bd63-201b-4d0e-be40-3f774aaaf1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\声音播放">
+      <UniqueIdentifier>{07d3255f-2281-49a1-afa0-0e7610bea60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\协议">
+      <UniqueIdentifier>{1d4b6bcd-9749-4458-a120-4a922023ae2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\排名">
+      <UniqueIdentifier>{ea3d62a1-f948-4a44-9a06-b4d5e2dd870f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\玩家交互">
+      <UniqueIdentifier>{9d150ebc-c494-4540-9e59-731f77f3edbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\锁屏幕层">
+      <UniqueIdentifier>{91a88180-876d-44ea-946c-70446b52e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\玩家交易">
+      <UniqueIdentifier>{d4879da2-2dd3-4551-8048-87d2bdf43c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\放大地图">
+      <UniqueIdentifier>{17452ca4-d5f0-48a3-be58-f61b85d3e799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamecore\帮会">
+      <UniqueIdentifier>{69d46a46-e08a-44b1-93d1-d0950dbaf138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\帮会">
+      <UniqueIdentifier>{d6b4e052-014d-4359-a8b8-44e7f204b30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamescene\遥杆控制">
+      <UniqueIdentifier>{e1fcfb78-4a45-40b1-90e1-a3540e85046d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\锻造">
+      <UniqueIdentifier>{6d48d96e-eb5e-491b-acdc-ecd622440e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gamescene\技能控制杆">
+      <UniqueIdentifier>{f6bfaa30-6bff-4233-93bf-4ffd3e74add5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\菜单">
+      <UniqueIdentifier>{397fdfff-01ff-4d20-97af-3791bf5602c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\输入IP">
+      <UniqueIdentifier>{aff012b4-3c87-440e-8406-33dbfe17e267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\传送收益">
+      <UniqueIdentifier>{0252058c-c7ba-4a61-aba4-41f270036b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\山洞地图">
+      <UniqueIdentifier>{9f584878-2601-4b39-83f3-ef6362c234ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\即时动画播放">
+      <UniqueIdentifier>{4015271c-f876-49e6-9dfc-eaf4a0ce2683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\任务追踪">
+      <UniqueIdentifier>{580be486-e33c-48aa-b5b9-4ddb8fcb3d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\定义列表">
+      <UniqueIdentifier>{b386dccf-4d58-4ce5-972d-ffa1ef842b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\排名">
+      <UniqueIdentifier>{d076cb1e-6436-4a7c-972a-ad1cbfb827a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameui\游戏设置">
+      <UniqueIdentifier>{272a3c6b-fb0f-48ce-9be2-c59a30ce56f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KgameWorld.cpp">
+      <Filter>Classes\gamescene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\alloc.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\io.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2b_99.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2b_d.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2b_ds.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2b_to.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2d_99.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2d_d.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2d_ds.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2d_to.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2e_99.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2e_d.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2e_ds.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\n2e_to.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_crc.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_dll.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_init.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_ptr.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_str.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\ucl\ucl_util.c">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KCore.cpp">
+      <Filter>Classes\gamecore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\CXmlStream.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\XPackFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KCodec.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KCodecLzo.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KDownLoadFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KFilePath.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KIniFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KList.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KMemBase.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KMemClass.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KMemStack.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KNode.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KPakFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KPakList.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KSG_StringProcess.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KStrBase.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KTabFile.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\CoreShell.cpp">
+      <Filter>Classes\gamecore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KInventory.cpp">
+      <Filter>Classes\gamecore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KPolygon.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KLuaScript.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KScript.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KScriptCache.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KScriptList.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KStepLuaScript.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KLubCmpl_Blocker.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KCache.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KStrList.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KStrNode.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KMemManager.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KMemClass1.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KRandom.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KTimer.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\Text.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\dump.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lapi.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lcode.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\ldebug.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\ldo.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lfunc.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lgc.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\llex.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lmem.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lobject.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lparser.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lstate.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lstring.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\ltable.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\ltests.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\ltm.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lua.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\luac.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\LuaExtend.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lundump.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lvm.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\lzio.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\opt.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\print.c">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lauxlib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lbaselib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\ldblib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\liolib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lmathlib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\lualib\baselib\lstrlib.c">
+      <Filter>Classes\engine\lualib\baselib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KItem.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KItemList.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KItemSet.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpc.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcAI.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcDeathCalcExp.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcFindPath.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcGold.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcSet.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcTemplate.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSkillList.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSkillManager.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSkills.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSkillSpecial.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KTabFileCtrl.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMath.cpp">
+      <Filter>Classes\gamecore\数学算法</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KProtocolProcess.cpp">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KProtocol.cpp">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSubWorld.cpp">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSubWorldSet.cpp">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KRegion.cpp">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KLinkArray.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerSet.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayer.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerReBorn.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerTrade.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerFuYuan.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerRepute.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KItemChangeRes.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KItemGenerator.CPP">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KBasPropTbl.CPP">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMagicDesc.cpp">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KFaction.cpp">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcAttribModify.cpp">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\ImgRef.cpp">
+      <Filter>Classes\gamecore\动画换帧计算</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcRes.cpp">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcResNode.cpp">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KNpcResList.cpp">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KThiefSkill.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KObj.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KObjSet.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerPK.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerTask.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSprControl.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSortScript.cpp">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerMenuState.cpp">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerTeam.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerFaction.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KSellItem.cpp">
+      <Filter>Classes\gamecore\交易买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KTaskFuns.cpp">
+      <Filter>Classes\gamecore\任务</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KViewItem.cpp">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KBuySell.cpp">
+      <Filter>Classes\gamecore\交易买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMissle.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMissleRes.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMissleSet.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMissleMagicAttribsData.cpp">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\LuaFuns.cpp">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KScriptValueSet.cpp">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\ScriptFuns.cpp">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\PopupLayer.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImageStore\KImageStore2.cpp">
+      <Filter>Classes\ImageStore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KScenePlaceC.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KScenePlaceRegionC.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\SceneMath.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\ScenePlaceMapC.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KIpoTree.cpp">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KIpotLeaf.cpp">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KIpotBranch.cpp">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KLittleMap.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\CoreDrawGameObj.cpp">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\IOBuffer.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\KSG_EncodeDecode.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\NodeList.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\SocketClient.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\Thread.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\ClientStage.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\Socket.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\UsesWinsock.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KCheckbox.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\KSG_MD5_String.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\md5.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Uiglobaldata.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KTranSence.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KUpdateLayer.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KDrawGameWorld.cpp">
+      <Filter>Classes\gamescene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\uiSkill.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTeam.cpp">
+      <Filter>Classes\gameui\组队</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiItem.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSkill.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Klogin.cpp">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Klogin_f.cpp">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KSelPlayer.cpp">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiRoleState.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiItemEx.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiDialog.cpp">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KLadder.cpp">
+      <Filter>Classes\gamecore\排名</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\GameSpaceChangedNotify.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTalkDialog.cpp">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiShop.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTalkDialog1.cpp">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiItemdesc.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuistoreBox.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuigetMoney.cpp">
+      <Filter>Classes\gameui\存取钱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuigetStringInUI.cpp">
+      <Filter>Classes\gameui\输入数字字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSkilldesc.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSelNativePlace.cpp">
+      <Filter>Classes\gameui\新建角色</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiNewPlayer.cpp">
+      <Filter>Classes\gameui\新建角色</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiProgressbar.cpp">
+      <Filter>Classes\gameui\进度条</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiAccreg.cpp">
+      <Filter>Classes\gameui\帐号注册</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSelserver.cpp">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSortSkill_r.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Kuilaotou.cpp">
+      <Filter>Classes\gameui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\Kgetinidata.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\engine\dataChecksum.cpp">
+      <Filter>Classes\engine\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Kuigive.cpp">
+      <Filter>Classes\gameui\给予界面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiChatList.cpp">
+      <Filter>Classes\gameui\聊天滚动层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiAutoPlay.cpp">
+      <Filter>Classes\gameui\内挂</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KMapMusic.cpp">
+      <Filter>Classes\gamecore\声音播放</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\Event.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\CriticalSection.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSuperShop.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Kuiplayerfun.cpp">
+      <Filter>Classes\gameui\玩家交互</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiViewRoleState.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiPlayerShop.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiPaimaishop.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSellItem.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiLockscree.cpp">
+      <Filter>Classes\gameui\锁屏幕层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiPlayerTrade.cpp">
+      <Filter>Classes\gameui\玩家交易</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiDynamicShop.cpp">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiMaxMap.cpp">
+      <Filter>Classes\gameui\放大地图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiSortSkill_l.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiItemKuo.cpp">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerTong.cpp">
+      <Filter>Classes\gamecore\帮会</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KHRocker.cpp">
+      <Filter>Classes\gamescene\遥杆控制</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\Kuiduan.cpp">
+      <Filter>Classes\gameui\锻造</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiAutoPlay_vn.cpp">
+      <Filter>Classes\gameui\内挂</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamescene\KSkillRocker.cpp">
+      <Filter>Classes\gamescene\技能控制杆</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiMyMenu.cpp">
+      <Filter>Classes\gameui\菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gamecore\KPlayerVip.cpp">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiInPutIp.cpp">
+      <Filter>Classes\gameui\输入IP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiCometoMap.cpp">
+      <Filter>Classes\gameui\传送收益</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiMoveToMap.cpp">
+      <Filter>Classes\gameui\山洞地图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiShowSprite.cpp">
+      <Filter>Classes\gameui\即时动画播放</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTaskInfo.cpp">
+      <Filter>Classes\gameui\任务追踪</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiMylistView.cpp">
+      <Filter>Classes\gameui\定义列表</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTongInfo.cpp">
+      <Filter>Classes\gameui\帮会</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiRankInfo.cpp">
+      <Filter>Classes\gameui\排名</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiEscInfo.cpp">
+      <Filter>Classes\gameui\游戏设置</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameui\KuiTongCreateSheet.cpp">
+      <Filter>Classes\gameui\帮会</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KgameWorld.h">
+      <Filter>Classes\gamescene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\getbit.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\ucl.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\ucl_asm.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\ucl_conf.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\ucl_ptr.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\ucl\uclconf.h">
+      <Filter>Classes\engine\ucl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KCore.h">
+      <Filter>Classes\gamecore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\CXmlStream.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KbugInfo.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KCodec.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KCodecLzo.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KCriticalSection.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KDownLoadFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KEngine.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KFilePath.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KGbktoUtf8.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KIniFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KList.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KMemBase.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KMemClass.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KMemStack.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KPakFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KPakList.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KStrBase.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KTabFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\XPackFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KNode.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KSG_StringProcess.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KITabFile.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\CoreShell.h">
+      <Filter>Classes\gamecore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KInventory.h">
+      <Filter>Classes\gamecore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KPolygon.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KLuaScript.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KScript.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\LuaLib.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KScriptCache.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KScriptList.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KStepLuaScript.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KLubCmpl_Blocker.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KCache.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KStrList.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KStrNode.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KMemManager.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KMemClass1.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KRandom.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KTimer.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\Text.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lapi.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lauxlib.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lcode.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\ldebug.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\ldo.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lfunc.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lgc.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\llex.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\llimits.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lmem.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lobject.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lopcodes.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lparser.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lstate.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lstring.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\ltable.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\ltm.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lua.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\luac.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\luadebug.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\LuaDef.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lundump.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lvm.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\lzio.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\lualib\print.h">
+      <Filter>Classes\engine\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KItem.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KItemList.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KItemSet.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpc.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcAI.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcFindPath.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcGold.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcSet.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcTemplate.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerDef.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerSet.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KDropScript.h">
+      <Filter>Classes\gamecore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSkillList.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSkillManager.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSkills.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSkillSpecial.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KTabFileCtrl.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMath.h">
+      <Filter>Classes\gamecore\数学算法</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KProtocol.h">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KProtocolDef.h">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KProtocolProcess.h">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KTongProtocol.h">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KRelayProtocol.h">
+      <Filter>Classes\gamecore\协议</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSubWorldSet.h">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSubWorld.h">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KRegion.h">
+      <Filter>Classes\gamecore\地图区域</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KLinkArray.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayer.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerReBorn.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerFuYuan.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerRepute.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerTrade.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KItemChangeRes.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KItemGenerator.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KBasPropTbl.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMagicDesc.h">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMagicAttrib.h">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KFaction.h">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcAttribModify.h">
+      <Filter>Classes\gamecore\魔法属性</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\ImgRef.h">
+      <Filter>Classes\gamecore\动画换帧计算</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcRes.h">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcResList.h">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KNpcResNode.h">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KThiefSkill.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KObj.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KObjSet.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerPK.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerTask.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSprControl.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSortScript.h">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerMenuState.h">
+      <Filter>Classes\gamecore\NPC外观</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerTeam.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerFaction.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KSellItem.h">
+      <Filter>Classes\gamecore\交易买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KTaskFuns.h">
+      <Filter>Classes\gamecore\任务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KViewItem.h">
+      <Filter>Classes\gamecore\物品装备</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KBuySell.h">
+      <Filter>Classes\gamecore\交易买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMissleSet.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMissleRes.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMissle.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMissleMagicAttribsData.h">
+      <Filter>Classes\gamecore\技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\LuaFuns.h">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KScriptValueSet.h">
+      <Filter>Classes\gamecore\脚本</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KBinsTree.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KBinTreeNode.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\PopupLayer.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImageStore\KImageStore2.h">
+      <Filter>Classes\ImageStore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KScenePlaceC.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KScenePlaceRegionC.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\SceneMath.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\ScenePlaceMapC.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KIpoTree.h">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KIpotLeaf.h">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KIpotBranch.h">
+      <Filter>Classes\gamescene\场景\场景中对象与对象树</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KLittleMap.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\CoreDrawGameObj.h">
+      <Filter>Classes\gamescene\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\Cipher.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\IOBuffer.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\KSG_EncodeDecode.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\NodeList.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\SocketClient.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\CriticalSection.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\Thread.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\Event.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\ClientStage.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\Socket.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\UsesWinsock.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\LoginDef.h">
+      <Filter>Classes\gamescene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KCheckbox.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\KSG_MD5_String.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\md5.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Uiglobaldata.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KTranSence.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KUpdateLayer.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KDrawGameWorld.h">
+      <Filter>Classes\gamescene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\uiSkill.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTeam.h">
+      <Filter>Classes\gameui\组队</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiItem.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSkill.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Klogin.h">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Klogin_f.h">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KSelPlayer.h">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiRoleState.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiItemEx.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiDialog.h">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KLadder.h">
+      <Filter>Classes\gamecore\排名</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\GameSpaceChangedNotify.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTalkDialog.h">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiShop.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTalkDialog1.h">
+      <Filter>Classes\gameui\对话确认窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiItemdesc.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuistoreBox.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuigetMoney.h">
+      <Filter>Classes\gameui\存取钱</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuigetStringInUI.h">
+      <Filter>Classes\gameui\输入数字字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSkilldesc.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSelNativePlace.h">
+      <Filter>Classes\gameui\新建角色</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiNewPlayer.h">
+      <Filter>Classes\gameui\新建角色</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiProgressbar.h">
+      <Filter>Classes\gameui\进度条</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiAccreg.h">
+      <Filter>Classes\gameui\帐号注册</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSelserver.h">
+      <Filter>Classes\gameui\登陆选择服务器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSortSkill_r.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Kuilaotou.h">
+      <Filter>Classes\gameui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\Kgetinidata.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\dataChecksum.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Kuigive.h">
+      <Filter>Classes\gameui\给予界面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiChatList.h">
+      <Filter>Classes\gameui\聊天滚动层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiAutoPlay.h">
+      <Filter>Classes\gameui\内挂</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KMapMusic.h">
+      <Filter>Classes\gamecore\声音播放</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSuperShop.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Kuiplayerfun.h">
+      <Filter>Classes\gameui\玩家交互</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiViewRoleState.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiPlayerShop.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiPaimaishop.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSellItem.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiLockscree.h">
+      <Filter>Classes\gameui\锁屏幕层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiPlayerTrade.h">
+      <Filter>Classes\gameui\玩家交易</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiDynamicShop.h">
+      <Filter>Classes\gameui\npc买卖</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiMaxMap.h">
+      <Filter>Classes\gameui\放大地图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiSortSkill_l.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiItemKuo.h">
+      <Filter>Classes\gameui\状态物品技能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerTong.h">
+      <Filter>Classes\gamecore\帮会</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KHRocker.h">
+      <Filter>Classes\gamescene\遥杆控制</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\Kuiduan.h">
+      <Filter>Classes\gameui\锻造</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiAutoPlay_vn.h">
+      <Filter>Classes\gameui\内挂</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamescene\KSkillRocker.h">
+      <Filter>Classes\gamescene\技能控制杆</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiMyMenu.h">
+      <Filter>Classes\gameui\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gamecore\KPlayerVip.h">
+      <Filter>Classes\gamecore\NPC人物</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiInPutIp.h">
+      <Filter>Classes\gameui\输入IP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiCometoMap.h">
+      <Filter>Classes\gameui\传送收益</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiMoveToMap.h">
+      <Filter>Classes\gameui\山洞地图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiShowSprite.h">
+      <Filter>Classes\gameui\即时动画播放</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTaskInfo.h">
+      <Filter>Classes\gameui\任务追踪</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiMylistView.h">
+      <Filter>Classes\gameui\定义列表</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTongInfo.h">
+      <Filter>Classes\gameui\帮会</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\engine\LinkStruct.h">
+      <Filter>Classes\engine\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiRankInfo.h">
+      <Filter>Classes\gameui\排名</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiEscInfo.h">
+      <Filter>Classes\gameui\游戏设置</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameui\KuiTongCreateSheet.h">
+      <Filter>Classes\gameui\帮会</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
