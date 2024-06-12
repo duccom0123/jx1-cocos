@@ -1,7 +1,7 @@
 ﻿- 👋 Xin chào, tôi là @duccom0123
 - 👀 Đây là bản jx1 cocos2dx226
 - ⚡ Sửa đổi:
-    * Sử đổi để build proj.win32, để ae có thể debug trực tiếp trên máy tính để quá trình dev trở lên nhanh hơn
+    * Sửa đổi để build proj.win32, để ae có thể debug trực tiếp trên máy tính để quá trình dev trở lên nhanh hơn
 - ⚡ Cách sử dụng:
     * B1: git clone https://github.com/duccom0123/jx1-cocos.git
     * B2: copy jxclient vào trong cocos2dx226\projects (ae nên backup lại file cũ của mình cho chắc nhé)
